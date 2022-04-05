@@ -1,0 +1,1 @@
+NOTEPAD /P "C:\xampp_new\htdocs\SRS_ASSET\asset.txt"

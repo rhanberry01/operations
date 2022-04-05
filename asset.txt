@@ -1,0 +1,17 @@
+Asset Order No.: 6                                           
+Asset Transfer No.:1                                         
+
+==============================================
+
+From: SRS NOVALICHES                                         
+To: SRS ANTIPOLO QUEZON                                      
+Date: 2016-01-05                                             
+
+==============================================
+
+                Asset List                
+
+Asset #			Description               
+
+TNOV CAW 100 140 000 0008	carts
+TNOV CAW 100 140 000 0006	carts

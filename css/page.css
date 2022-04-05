@@ -1,0 +1,217 @@
+ .bootbox-wide{
+  width: 80% !important;  
+}
+
+.bootbox-ywide{
+  width: 20% !important;  
+}
+
+.bootbox-xwide{
+  width: 85% !important;  
+}
+
+.bootbox-hwide{
+  width: 75% !important;  
+}
+
+ .bootbox-fwide{
+  width: 50% !important;  
+}
+
+ ul.nav li.active a{
+ /* background-color: #367fa9 !important; */
+ background-color: #3c8dbc !important;
+ /* background-color: #2daebf !important; */
+ color:#fff !important;
+ }
+
+.ul-hover-blue li:hover{
+  background-color: #2daebf;
+  color:#fff;
+}
+.div-no-spaces div{
+  margin: 0;
+  padding: 0;
+}
+.div-no-raduis div{
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.vertical-list{
+	margin: 0;
+	padding: 0px 0px;
+	list-style: none;
+}
+.vertical-list li{
+  border-radius: 2px;
+  padding: 10px;
+  background: #f3f4f5;
+  margin-bottom: 2px;
+  border-left: 2px solid #e6e7e8;
+  color: #444;
+}
+.vertical-list .handle {
+  display: inline-block;
+  margin: 0 5px;
+}
+.vertical-list li a {
+  float:right;
+}
+.vertical-list li a.text {
+  float:none;
+  font-weight: bold;
+}
+
+.manager-call-pop div{
+  border-radius: 0;
+}
+.manager-call-pop .modal-body{
+  background-color: #007d9a;
+}
+.manager-call-pop .modal-footer{
+  margin-top:0px;
+  padding: 5px;
+  text-align: center;
+}
+.manager-call-pop .modal-footer div{
+  margin: 0px;
+  padding: 0px;
+}
+.manager-call-pop button.pop-manage,
+.manager-call-pop button.pop-manage:visited{
+  vertical-align:middle;
+  text-align:center;
+  font-size:14px;
+  font-weight:bold;
+  height:50px;
+  width: 200px;
+  cursor:pointer;
+  color:#fff;
+  border: none;
+  background:#222;
+  /*display:inline-block;*/
+  /*padding:5px 10px 6px;*/
+  color:#fff;
+  text-decoration:none;
+  border-radius:0;
+  /*-moz-border-radius:3px;
+  -webkit-border-radius:3px;*/
+  -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);
+  text-shadow:0 -1px 1px rgba(0, 0, 0, 0.1);
+  border-bottom:1px solid rgba(0, 0, 0, 0.25);
+  position:relative; cursor:pointer;
+  box-shadow:0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.manager-call-pop button.pop-manage:hover { background-color:#3B3B3B !important; color:#fff;}
+.manager-call-pop button.pop-manage:active { top:1px;}
+.manager-call-pop button:hover { background-color:#3B3B3B !important; color:#fff;}
+.manager-call-pop button:active { top:1px;}
+.manager-call-pop button.pop-manage-green,
+.manager-call-pop button.pop-manage-green:visited { background-color:#91bd09 !important;}
+.manager-call-pop button.pop-manage-green:hover { background-color:#749a02 !important;}
+.manager-call-pop button.pop-manage-red,
+.manager-call-pop button.pop-manage-red:visited { background-color:#D12027 !important;}
+.manager-call-pop button.pop-manage-red:hover { background-color:#B6151C !important;}
+.manager-call-pop button.double{
+  height: 65px;
+  font-size: 14px;
+}
+textarea.textarea-vert-only {
+  resize: vertical;
+}
+/*----------TEXT AREA SIZES----------*/
+.formInputSmall{
+	width:150px !important;
+}
+.formInputSmaller{
+	width:100px !important;
+}
+.formInputMini{
+	width:80px !important;
+}
+.formInputTiny{
+	width:50px !important;
+}
+.formInputMed{
+	width:250px !important;
+}
+.formInputXMed{
+	width:350px !important;
+}
+/*----------HR layouts----------*/
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}

@@ -1,0 +1,35 @@
+
+
+          I-Foods Group, Inc.         
+SELECT trans_sales_menus.sales_id, menus.menu_name, trans_sales_menus.menu_id, sum(IF(ISNULL(trans_sales_menus.qty) || trans_sales_menus.qty = 0, 1, trans_sales_menus.qty)) as total_qty, sum(IF(ISNULL(trans_sales_menus.qty) || (trans_sales_menus.qty * trans_sales_menus.price) = 0, 1, (trans_sales_menus.qty * trans_sales_menus.price) )) as total_amount
+FROM (`menus`)
+JOIN `trans_sales_menus` ON `trans_sales_menus`.`menu_id` = `menus`.`menu_id`
+JOIN `trans_sales` ON `trans_sales`.`sales_id` = `trans_sales_menus`.`sales_id`
+JOIN `users` ON `trans_sales`.`user_id` = `users`.`id`
+JOIN `terminals` ON `trans_sales`.`terminal_id` = `terminals`.`terminal_id`
+WHERE `type_id` =  10
+AND trans_sales.trans_ref IS NOT NULL
+AND `trans_sales`.`user_id` =  '5'
+GROUP BY `trans_sales_menus`.`sales_id`
+ORDER BY `total_qty` desc           Menu Sales Report          
+
+Item          ALL                
+Time Period   ALL                
+Terminal      ALL                
+Employee      Debylyn   Pajarillo 
+Sales Type    ALL                
+Date Range    2014-11-01 - 2014-11-01
+Printed On    2014-11-01 07:07:17
+Printed BY    Rey Coloma Tejada Jr.
+======================================
+CRISPY FRIES      4.00          40.00%
+                  695.00        51.83%
+STACK BURG SGL    3.00          30.00%
+                  413.00        30.80%
+BOT WATER 500ml   3.00          30.00%
+                  233.00        17.38%
+======================================
+TOTAL SALES       10.00       1,341.00
+TOTAL ITEMS DISC                  0.00
+TOTAL OTHER DISC                  0.00
+TOTAL NET SALES               1,341.00

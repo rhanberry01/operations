@@ -1,0 +1,1 @@
+start /min http://localhost/srs_operation/operation/add_auto ^& exit
