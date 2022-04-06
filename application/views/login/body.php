@@ -10,8 +10,8 @@
                              <select name ="branch" class="form-control rOkay" id = "branch">
 								 <option value='-1'>Select Branch</option>
 								 <?php
-								$sql = "SELECT * 
-									FROM 0_branch where branch_code ='TNOV'";
+                                 $branch_op = BRANCH_OP;
+								 $sql = "SELECT * FROM 0_branch where branch_code ='".$branch_op."' ";
 								 $query = mysql_query($sql) or die(mysql_error());
 								while($row = mysql_fetch_array($query))
 								 {

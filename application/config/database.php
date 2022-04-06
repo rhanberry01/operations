@@ -709,24 +709,6 @@ $db['srs_aria_san_isidro']['stricton'] = FALSE;
 
 
 
-$db['srs_aria_sta_rosa']['hostname'] = '192.168.0.91'; 
-$db['srs_aria_sta_rosa']['username'] = 'root'; 
-$db['srs_aria_sta_rosa']['password'] = 'srsnova';
-$db['srs_aria_sta_rosa']['database'] = 'srs_aria_sta_rosa';
-$db['srs_aria_sta_rosa']['dbdriver'] = 'mysql';
-$db['srs_aria_sta_rosa']['dbprefix'] = '';
-$db['srs_aria_sta_rosa']['pconnect'] = FALSE;
-$db['srs_aria_sta_rosa']['db_debug'] = false;
-$db['srs_aria_sta_rosa']['cache_on'] = FALSE;
-$db['srs_aria_sta_rosa']['cachedir'] = '';
-$db['srs_aria_sta_rosa']['char_set'] = 'utf8';
-$db['srs_aria_sta_rosa']['dbcollat'] = 'utf8_general_ci';
-$db['srs_aria_sta_rosa']['swap_pre'] = '';
-$db['srs_aria_sta_rosa']['autoinit'] = TRUE;
-$db['srs_aria_sta_rosa']['stricton'] = FALSE;
-
-
-
 $db['srs_aria_marilao']['hostname'] = '192.168.0.91'; 
 $db['srs_aria_marilao']['username'] = 'root'; 
 $db['srs_aria_marilao']['password'] = 'srsnova';
@@ -1347,22 +1329,6 @@ $db['TMAR']['swap_pre'] = '';
 $db['TMAR']['autoinit'] = TRUE;
 $db['TMAR']['stricton'] = FALSE;
 
-$db['TMAR2']['hostname'] = "192.168.129.100";
-$db['TMAR2']['username'] = 'markuser';
-$db['TMAR2']['password'] = 'tseug';
-$db['TMAR2']['database'] = 'SBMARILAO2';
-//$db['TMAR2']['dbdriver'] = 'sqlsrv';
-$db['TMAR2']['dbdriver'] = 'mssql';
-$db['TMAR2']['dbprefix'] = '';
-$db['TMAR2']['pconnect'] = TRUE;
-$db['TMAR2']['db_debug'] = FALSE;
-$db['TMAR2']['cache_on'] = FALSE;
-$db['TMAR2']['cachedir'] = '';
-$db['TMAR2']['char_set'] = 'utf8';
-$db['TMAR2']['dbcollat'] = 'utf8_general_ci';
-$db['TMAR2']['swap_pre'] = '';
-$db['TMAR2']['autoinit'] = TRUE;
-$db['TMAR2']['stricton'] = FALSE;
 
 
 
@@ -1569,6 +1535,41 @@ $db['mynova']['dbcollat'] = 'utf8_general_ci';
 $db['mynova']['swap_pre'] = '';
 $db['mynova']['autoinit'] = TRUE;
 $db['mynova']['stricton'] = FALSE;
+
+
+$db['TMAR2']['hostname'] = "192.168.129.100";
+$db['TMAR2']['username'] = 'markuser';
+$db['TMAR2']['password'] = 'tseug';
+$db['TMAR2']['database'] = 'SBMARILAO2';
+//$db['TMAR2']['dbdriver'] = 'sqlsrv';
+$db['TMAR2']['dbdriver'] = 'mssql';
+$db['TMAR2']['dbprefix'] = '';
+$db['TMAR2']['pconnect'] = TRUE;
+$db['TMAR2']['db_debug'] = FALSE;
+$db['TMAR2']['cache_on'] = FALSE;
+$db['TMAR2']['cachedir'] = '';
+$db['TMAR2']['char_set'] = 'utf8';
+$db['TMAR2']['dbcollat'] = 'utf8_general_ci';
+$db['TMAR2']['swap_pre'] = '';
+$db['TMAR2']['autoinit'] = TRUE;
+$db['TMAR2']['stricton'] = FALSE;
+
+$db['srs_aria_sta_rosa']['hostname'] = '192.168.0.91'; 
+$db['srs_aria_sta_rosa']['username'] = 'root'; 
+$db['srs_aria_sta_rosa']['password'] = 'srsnova';
+$db['srs_aria_sta_rosa']['database'] = 'srs_aria_sta_rosa';
+$db['srs_aria_sta_rosa']['dbdriver'] = 'mysql';
+$db['srs_aria_sta_rosa']['dbprefix'] = '';
+$db['srs_aria_sta_rosa']['pconnect'] = FALSE;
+$db['srs_aria_sta_rosa']['db_debug'] = false;
+$db['srs_aria_sta_rosa']['cache_on'] = FALSE;
+$db['srs_aria_sta_rosa']['cachedir'] = '';
+$db['srs_aria_sta_rosa']['char_set'] = 'utf8';
+$db['srs_aria_sta_rosa']['dbcollat'] = 'utf8_general_ci';
+$db['srs_aria_sta_rosa']['swap_pre'] = '';
+$db['srs_aria_sta_rosa']['autoinit'] = TRUE;
+$db['srs_aria_sta_rosa']['stricton'] = FALSE;
+
 
 
 /* End of file database.php */
